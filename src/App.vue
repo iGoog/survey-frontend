@@ -1,17 +1,19 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js App" />
+    <SurveyQuestions></SurveyQuestions>
   </div>
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld.vue";
+import SurveyQuestions from "@/components/SurveyQuestions";
 
 export default {
   name: "App",
   components: {
-    HelloWorld
+    SurveyQuestions
+  },
+  data: function() {
+    return {};
   }
 };
 </script>
